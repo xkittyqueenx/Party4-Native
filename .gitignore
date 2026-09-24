@@ -1,0 +1,16 @@
+# Private board-editing tools and game-specific overrides
+/board-editor/
+/Board Editor.cmd
+/BoardEditor.exe
+/BoardEditor.dll
+/BoardEditor.deps.json
+/BoardEditor.runtimeconfig.json
+/Play Edited Boards.cmd
+/board-mods.txt
+/mods/
+
+# Personal settings, saves, disc path, and runtime diagnostics
+/profile/
+/logs/
+/*.dmp
+/*-usage-pid-*.txt
