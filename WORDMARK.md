@@ -1,0 +1,5 @@
+# DELUXE wordmark
+
+Created with the built-in image-generation tool, using the supplied original Mario Party 4 logo as a visual reference. The transparent PNG is res/deluxe-wordmark.png. This is a generated matching-style wordmark, not a claim to possess the original proprietary logo font. The supplied original logo remains unchanged.
+
+Prompt: Create a production-ready transparent PNG game subtitle wordmark containing ONLY the exact uppercase word DELUXE. Use the Mario Party 4 logo in the earlier attached reference as the design reference: irregular chunky angular uppercase letters, bright yellow, lime green, sky blue and pink faces patterned with large slightly darker polka dots, thick dark navy outlines and deep purple extruded beveled 3D sides down-right. Match that lettering closely, not a serif font. Six letters D E L U X E fully legible, one horizontal line. Transparent alpha background, no scene, no Mario Party text, no numeral 4, no additional words, no checkerboard painted into image. Tight framing with a small transparent margin. This will be placed below the existing original logo in a game UI.

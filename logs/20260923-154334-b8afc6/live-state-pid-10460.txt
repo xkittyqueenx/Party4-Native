@@ -1,0 +1,65 @@
+PARTYBOARD_CRASH_REPORT version=1
+build_describe=UNKNOWN-VERSION
+build_revision=8d27ee358df5646a2321e94371654db79a636651
+build_branch=audio-local
+build_type=RelWithDebInfo
+build_version=0.0.0.0
+build_stamp=Sep 23 2026 15:14:44
+build_arch=x86_64
+process_id=10460
+peer_index=-1
+role=unknown
+executable=<install>\partyboard.exe
+command_line="<install>\partyboard.exe"
+started_at=2026-09-23 15:43:34.329
+report_written_at=2026-09-23 15:44:05.730
+shutdown_requested_by_user=1
+shutdown_requested_by_supervisor=0
+shutdown_intent=USER_REQUESTED_EXIT
+shutdown_how=window closed (AURORA_EXIT)
+
+[SIMULATION]
+simulation_frame=0 network_frame=0 rendered_frames=1807
+game_context=0 overlay=0 minigame=0
+board=0 turn=0 max_turn=0
+overlay_previous=0 overlay_transition_frame=0 frames_since_transition=0
+last_state_hash=0000000000000000 at_frame=0
+rng frand=00000000 rand8=00000000 boardrand=00000000
+rng_calls frand=0 rand8=0 boardrand=0
+fpu mxcsr=00001fb3 controlfp=0008001f sse_round=0 ftz=0 daz=0
+input local=0000/0/0 remote=0000/0/0
+rollback active=0 count=0 replayed=0 predicted=0
+
+[NETWORK]
+received=0 rejected=0 repaired=0 send_errors=0 tx_sequence=0
+packet_age_ms=0 stalled_ticks=0 longest_stall=0
+rng_sync=0 mismatch=0 context_skew=0 local_ready=0 remote_ready=0
+
+[AUDIO DIAGNOSTIC - not hashed]
+audio_thread_context mus_status[0]=0 mus_status[1]=0 mus_status[2]=0 mus_status[3]=0
+
+[RECENT EVENTS - newest last]
+events_recorded=21 events_kept=21
+EVENT frame=0 t=104425281 CONTEXT crash reporter armed peer=-1 role=unknown dir=C:\Users\avery\Documents\Codex\2026-09-23\goal-develop-a-pc-version-of\outputs\Party4-Native\logs\2026092
+EVENT frame=0 t=104426062 PROCESS create prio=0 stack=32768(game 16384) thread=0000020989B31000
+EVENT frame=0 t=104426218 PROCESS create prio=8192 stack=65536(game 32768) thread=000002098FC51000
+EVENT frame=0 t=104426218 PROCESS create prio=100 stack=49152(game 24576) thread=000002098FC71000
+EVENT frame=0 t=104426250 PROCESS create prio=100 stack=32768(game 16384) thread=0000020990481000
+EVENT frame=0 t=104426296 PROCESS destroy thread=000002098FC71000 peak=6840 of 49152
+EVENT frame=0 t=104426296 PROCESS destroy thread=0000020990481000 peak=0 of 32768
+EVENT frame=0 t=104426296 PROCESS destroy thread=000002098FC51000 peak=6232 of 65536
+EVENT frame=0 t=104426328 PROCESS create prio=8192 stack=65536(game 32768) thread=000002098FC51000
+EVENT frame=0 t=104426343 PROCESS create prio=8194 stack=98304(game 49152) thread=0000020992971000
+EVENT frame=0 t=104426359 BOARD coverage TUTORIAL first reached
+EVENT frame=0 t=104426359 PROCESS create prio=100 stack=32768(game 16384) thread=000002098FC71000
+EVENT frame=0 t=104426359 PROCESS create prio=100 stack=65536(game 32768) thread=0000020992BA1000
+EVENT frame=0 t=104426375 PROCESS create prio=100 stack=65536(game 32768) thread=0000020992DD1000
+EVENT frame=0 t=104426375 PROCESS create prio=100 stack=65536(game 32768) thread=0000020992DF1000
+EVENT frame=0 t=104426375 PROCESS create prio=100 stack=65536(game 32768) thread=0000020992E11000
+EVENT frame=0 t=104426437 PROCESS create prio=8191 stack=65536(game 32768) thread=0000020993671000
+EVENT frame=0 t=104426500 PROCESS create prio=8199 stack=57344(game 28672) thread=0000020990481000
+EVENT frame=0 t=104440953 PROCESS create prio=8201 stack=65536(game 32768) thread=0000020994B61000
+EVENT frame=0 t=104456546 CONTEXT user requested shutdown (window closed (AURORA_EXIT))
+EVENT frame=0 t=104456687 CONTEXT normal game exit reached
+
+END

@@ -1,0 +1,266 @@
+[INFO | aurora] Aurora initializing
+[INFO | aurora::system_info] CPU model: Intel(R) Core(TM) i7-14700F
+[INFO | aurora::system_info] Memory: 24347 MiB
+[INFO | aurora::system_info] Architecture: x86_64
+[INFO | aurora::system_info] OS: Microsoft Windows 10.0 build 26200
+[INFO | aurora::system_info] Detected GPU: NVIDIA GeForce RTX 5060 Ti
+[INFO | aurora::system_info] Detected GPU: Microsoft Basic Render Driver
+[INFO | aurora::gpu] Creating WebGPU instance
+[INFO | aurora::gpu] Attempting to initialize D3D12
+[INFO | aurora::gpu] Graphics adapter information
+  API: D3D12
+  Device: NVIDIA GeForce RTX 5060 Ti (DiscreteGPU)
+  Driver: D3D12 driver version 32.0.16.1088
+[INFO | aurora::gpu] Using limits:
+  maxTextureDimension1D: 16384
+  maxTextureDimension2D: 16384
+  maxTextureDimension3D: 2048
+  maxTextureArrayLayers: 2048
+  maxDynamicStorageBuffersPerPipelineLayout: 8
+  maxStorageBuffersPerShaderStage: 16
+  minUniformBufferOffsetAlignment: 256
+  minStorageBufferOffsetAlignment: 256
+[INFO | aurora::gpu] Using surface format BGRA8Unorm, present mode Fifo
+[DEBUG | aurora::gpu::cache] SQLite version 3.51.3
+[DEBUG | aurora::gpu::cache] Using dawn cache at C:\Users\avery\Documents\Codex\2026-09-23\goal-develop-a-pc-version-of\outputs\Party4-Native\profile\dawn_cache.db
+[DEBUG | aurora::gpu::cache] SQLite cache init succeeded
+[INFO | aurora::gfx::pipeline_cache] No bundled initial pipeline cache found at 'C:\Users\avery\Documents\Codex\2026-09-23\goal-develop-a-pc-version-of\outputs\Party4-Native\engine\initial_pipeline_cache.db'
+[INFO | aurora] Using framebuffer size 1280x720 scale 1
+[INFO | aurora::rmlui] Loaded font face 'Alegreya SC' [regular] from 'res\AlegreyaSC-Regular.ttf'.
+[INFO | aurora::rmlui] Loaded font face 'Alegreya SC' [bold] from 'res\AlegreyaSC-Bold.ttf'.
+[INFO | aurora::rmlui] Loaded font face 'Material Symbols Rounded' [regular] from 'res\MaterialSymbolsRounded-Regular.ttf'.
+[INFO | aurora::rmlui] Loaded font face 'N64 Party' [regular] from 'res\N64Party-Monochromatic.otf'.
+[INFO | aurora::rmlui] Loaded font face 'FOT-NewRodin Pro' [weight=600] from 'res\FOT-NewRodin Pro DB.otf'.
+[INFO | partyboard::main] DVD image chosen by the launcher
+[INFO | partyboard::main] Loading DVD image: C:\Users\avery\Documents\Mario Party 4 (Europe) (En,Fr,De,Es,It) (Rev 2).rvz
+[INFO | partyboard::mods] No mod enabled, booting the original disc
+[INFO | partyboard::version] Loaded game disc is GMPP01
+HuMem> left memory space 64319KB(65863616)
+[DEBUG | aurora::ar] Initialized 0x1800000 bytes of ARAM!
+[INFO | aurora::card] CARD API Initialized BUILT <Sep 23 2026 15:14:34>
+Rollback core self-test: PASS
+Rollback coroutine snapshot self-test: PASS
+Rollback memory snapshot self-test: PASS
+OSDisableInterrupts is a stub
+OSRestoreInterrupts is a stub
+GXSetDrawSyncCallback is a stub
+DLL DBG OUT
+objman>Call New Ovl 1(1)
+VIGetNextField is a stub
+VI_FIELD_BELOW
+VISetBlack is a stub
+++++++++++++++++++++ Start New OVL 1 (EVT:0 STAT:0x00000000) ++++++++++++++++++
+======== HuMem heap dump ff06e040 ========
+MCB-----+Size----+MG+FL+Prev----+Next----+UNum----+Body----+Call----
+ff06e040 0000a040 a5 01 ff0781c0 ff078080 ffffff00 ff06e080 dc36bd0f
+ff078080 00000140 a5 01 ff06e040 ff0781c0 ffffff00 ff0780c0 dc3e2b89
+ff0781c0 008f5e80 cd 00 ff078080 ff06e040 00000000 ff078200 dc3e2b89
+MCB:3(2/1) MEM:00900000(0000a180/008f5e80)
+======== HuMem heap dump ff06e040 end =====
+======== HuMem heap dump 80007040 ========
+MCB-----+Size----+MG+FL+Prev----+Next----+UNum----+Body----+Call----
+80007040 00000080 a5 01 8000a4c0 800070c0 ffffff00 80007080 dc3e90ff
+800070c0 00000060 a5 01 80007040 80007120 ffffff00 80007100 dc3e914c
+80007120 00000060 a5 01 800070c0 80007180 ffffff00 80007160 dc3e91ec
+80007180 00000400 a5 01 80007120 80007580 ffffff00 800071c0 dc3e9293
+80007580 00000080 a5 01 80007180 80007600 ffffff00 800075c0 dc3e90ff
+80007600 00000060 a5 01 80007580 80007660 ffffff00 80007640 dc3e914c
+80007660 00000060 a5 01 80007600 800076c0 ffffff00 800076a0 dc3e91ec
+800076c0 00000400 a5 01 80007660 80007ac0 ffffff00 80007700 dc3e9293
+80007ac0 00000080 a5 01 800076c0 80007b40 ffffff00 80007b00 dc3e90ff
+80007b40 00000060 a5 01 80007ac0 80007ba0 ffffff00 80007b80 dc3e914c
+80007ba0 00000060 a5 01 80007b40 80007c00 ffffff00 80007be0 dc3e91ec
+80007c00 00000400 a5 01 80007ba0 80008000 ffffff00 80007c40 dc3e9293
+80008000 00000080 a5 01 80007c00 80008080 ffffff00 80008040 dc3e90ff
+80008080 00000060 a5 01 80008000 800080e0 ffffff00 800080c0 dc3e914c
+800080e0 00000060 a5 01 80008080 80008140 ffffff00 80008120 dc3e91ec
+80008140 00000400 a5 01 800080e0 80008540 ffffff00 80008180 dc3e9293
+80008540 00000080 a5 01 80008140 800085c0 ffffff00 80008580 dc3e90ff
+800085c0 00000060 a5 01 80008540 80008620 ffffff00 80008600 dc3e914c
+80008620 00000060 a5 01 800085c0 80008680 ffffff00 80008660 dc3e91ec
+80008680 00000400 a5 01 80008620 80008a80 ffffff00 800086c0 dc3e9293
+80008a80 00000080 a5 01 80008680 80008b00 ffffff00 80008ac0 dc3e90ff
+80008b00 00000060 a5 01 80008a80 80008b60 ffffff00 80008b40 dc3e914c
+80008b60 00000060 a5 01 80008b00 80008bc0 ffffff00 80008ba0 dc3e91ec
+80008bc0 00000400 a5 01 80008b60 80008fc0 ffffff00 80008c00 dc3e9293
+80008fc0 00000080 a5 01 80008bc0 80009040 ffffff00 80009000 dc3e90ff
+80009040 00000060 a5 01 80008fc0 800090a0 ffffff00 80009080 dc3e914c
+800090a0 00000060 a5 01 80009040 80009100 ffffff00 800090e0 dc3e91ec
+80009100 00000400 a5 01 800090a0 80009500 ffffff00 80009140 dc3e9293
+80009500 00000080 a5 01 80009100 80009580 ffffff00 80009540 dc3e90ff
+80009580 00000060 a5 01 80009500 800095e0 ffffff00 800095c0 dc3e914c
+800095e0 00000060 a5 01 80009580 80009640 ffffff00 80009620 dc3e91ec
+80009640 00000400 a5 01 800095e0 80009a40 ffffff00 80009680 dc3e9293
+80009a40 00000080 a5 01 80009640 80009ac0 ffffff00 80009a80 dc3e90ff
+80009ac0 00000060 a5 01 80009a40 80009b20 ffffff00 80009b00 dc3e914c
+80009b20 00000060 a5 01 80009ac0 80009b80 ffffff00 80009b60 dc3e91ec
+80009b80 00000400 a5 01 80009b20 80009f80 ffffff00 80009bc0 dc3e9293
+80009f80 00000080 a5 01 80009b80 8000a000 ffffff00 80009fc0 dc3e90ff
+8000a000 00000060 a5 01 80009f80 8000a060 ffffff00 8000a040 dc3e914c
+8000a060 00000060 a5 01 8000a000 8000a0c0 ffffff00 8000a0a0 dc3e91ec
+8000a0c0 00000400 a5 01 8000a060 8000a4c0 ffffff00 8000a100 dc3e9293
+8000a4c0 029fcb80 cd 00 8000a0c0 80007040 00000000 8000a500 dc3e9293
+MCB:41(40/1) MEM:02a00000(00003480/029fcb80)
+======== HuMem heap dump 80007040 end =====
+======== HuMem heap dump 82a1b040 ========
+MCB-----+Size----+MG+FL+Prev----+Next----+UNum----+Body----+Call----
+82a1b040 01600000 cd 00 82a1b040 82a1b040 ffffff00 82a1b080 cdcdcdcd
+MCB:1(0/1) MEM:01600000(00000000/01600000)
+======== HuMem heap dump 82a1b040 end =====
+objman>Used Memory Size:0000a180
+objman>Used Memory Cnt:2
+objman>Init esp
+objman>Call objectsetup
+DLLStart 1 0
+Search:bootDll.dll
+objdll>Link DLL:bootDll.dll
+objdll> bootDll.dll prolog start
+******* Boot ObjectSetup *********
+objman>InitObjMan start
+objman>InitObjMan end
+objdll> bootDll.dll prolog end
+objman>ObjectSetup end
+DLL DBG OUT
+Rest Memory 15fd520
+ARAM Trans 20
+Rest Memory 15dd020
+ARAM Trans 2ac0
+Rest Memory 15863e0
+ARAM Trans 25a60
+Rest Memory 15e4f20
+ARAM Trans 9f640
+Rest Memory 15b9060
+0
+GroupSet 0
+GroupSet 0 loaded
+############CharGrpSet
+Del Group OK
+Rest Memory 14c2360
+ARAM Trans ba6e0
+Rest Memory 14b9940
+ARAM Trans 1f8340
+Rest Memory 14cc5c0
+ARAM Trans 33e9c0
+Rest Memory 14a6ca0
+ARAM Trans 4723c0
+PARTY4 session: Toad's Midway Madness; turns=10 humans=1 roster=0123 minigame=0
+objman>Call New Ovl 89(1)
+OvlKill 1
+objdll>omDLLNumEnd 1 1
+Search:bootDll.dll
++++++++++++ Find0: bootDll.dll
+objdll>omDLLEnd 0 1
+objdll>End DLL:bootDll.dll
+odjdll>Unlink DLL:bootDll.dll
+objdll>End DLL finish
+objman>Destory ObjMan
+++++++++++++++++++++ Start New OVL 89 (EVT:0 STAT:0x00000000) ++++++++++++++++++
+======== HuMem heap dump ff06e040 ========
+MCB-----+Size----+MG+FL+Prev----+Next----+UNum----+Body----+Call----
+ff06e040 0000a040 a5 01 ff07afa0 ff078080 ffffff00 ff06e080 dc36bd0f
+ff078080 00000140 a5 01 ff06e040 ff0781c0 ffffff00 ff0780c0 dc3e2b89
+ff0781c0 000023a0 cd 00 ff078080 ff07a560 ffffff00 ff078200 dc3e315f
+ff07a560 00000120 a5 01 ff0781c0 ff07a680 ffffff00 ff07a5a0 dc3d1e95
+ff07a680 00000420 a5 01 ff07a560 ff07aaa0 ffffff00 ff07a6c0 dc3d1f13
+ff07aaa0 00000420 a5 01 ff07a680 ff07aec0 ffffff00 ff07aae0 dc3d1f91
+ff07aec0 00000080 a5 01 ff07aaa0 ff07af40 ffffff00 ff07af00 dc3d200f
+ff07af40 00000060 a5 01 ff07aec0 ff07afa0 ffffff00 ff07af80 dc3d208d
+ff07afa0 008f30a0 cd 00 ff07af40 ff06e040 ffffff00 ff07afe0 dc3e315f
+MCB:9(7/2) MEM:00900000(0000abc0/008f5440)
+======== HuMem heap dump ff06e040 end =====
+======== HuMem heap dump 80007040 ========
+MCB-----+Size----+MG+FL+Prev----+Next----+UNum----+Body----+Call----
+80007040 00000080 a5 01 8000a4c0 800070c0 ffffff00 80007080 dc3e90ff
+800070c0 00000060 a5 01 80007040 80007120 ffffff00 80007100 dc3e914c
+80007120 00000060 a5 01 800070c0 80007180 ffffff00 80007160 dc3e91ec
+80007180 00000400 a5 01 80007120 80007580 ffffff00 800071c0 dc3e9293
+80007580 00000080 a5 01 80007180 80007600 ffffff00 800075c0 dc3e90ff
+80007600 00000060 a5 01 80007580 80007660 ffffff00 80007640 dc3e914c
+80007660 00000060 a5 01 80007600 800076c0 ffffff00 800076a0 dc3e91ec
+800076c0 00000400 a5 01 80007660 80007ac0 ffffff00 80007700 dc3e9293
+80007ac0 00000080 a5 01 800076c0 80007b40 ffffff00 80007b00 dc3e90ff
+80007b40 00000060 a5 01 80007ac0 80007ba0 ffffff00 80007b80 dc3e914c
+80007ba0 00000060 a5 01 80007b40 80007c00 ffffff00 80007be0 dc3e91ec
+80007c00 00000400 a5 01 80007ba0 80008000 ffffff00 80007c40 dc3e9293
+80008000 00000080 a5 01 80007c00 80008080 ffffff00 80008040 dc3e90ff
+80008080 00000060 a5 01 80008000 800080e0 ffffff00 800080c0 dc3e914c
+800080e0 00000060 a5 01 80008080 80008140 ffffff00 80008120 dc3e91ec
+80008140 00000400 a5 01 800080e0 80008540 ffffff00 80008180 dc3e9293
+80008540 00000080 a5 01 80008140 800085c0 ffffff00 80008580 dc3e90ff
+800085c0 00000060 a5 01 80008540 80008620 ffffff00 80008600 dc3e914c
+80008620 00000060 a5 01 800085c0 80008680 ffffff00 80008660 dc3e91ec
+80008680 00000400 a5 01 80008620 80008a80 ffffff00 800086c0 dc3e9293
+80008a80 00000080 a5 01 80008680 80008b00 ffffff00 80008ac0 dc3e90ff
+80008b00 00000060 a5 01 80008a80 80008b60 ffffff00 80008b40 dc3e914c
+80008b60 00000060 a5 01 80008b00 80008bc0 ffffff00 80008ba0 dc3e91ec
+80008bc0 00000400 a5 01 80008b60 80008fc0 ffffff00 80008c00 dc3e9293
+80008fc0 00000080 a5 01 80008bc0 80009040 ffffff00 80009000 dc3e90ff
+80009040 00000060 a5 01 80008fc0 800090a0 ffffff00 80009080 dc3e914c
+800090a0 00000060 a5 01 80009040 80009100 ffffff00 800090e0 dc3e91ec
+80009100 00000400 a5 01 800090a0 80009500 ffffff00 80009140 dc3e9293
+80009500 00000080 a5 01 80009100 80009580 ffffff00 80009540 dc3e90ff
+80009580 00000060 a5 01 80009500 800095e0 ffffff00 800095c0 dc3e914c
+800095e0 00000060 a5 01 80009580 80009640 ffffff00 80009620 dc3e91ec
+80009640 00000400 a5 01 800095e0 80009a40 ffffff00 80009680 dc3e9293
+80009a40 00000080 a5 01 80009640 80009ac0 ffffff00 80009a80 dc3e90ff
+80009ac0 00000060 a5 01 80009a40 80009b20 ffffff00 80009b00 dc3e914c
+80009b20 00000060 a5 01 80009ac0 80009b80 ffffff00 80009b60 dc3e91ec
+80009b80 00000400 a5 01 80009b20 80009f80 ffffff00 80009bc0 dc3e9293
+80009f80 00000080 a5 01 80009b80 8000a000 ffffff00 80009fc0 dc3e90ff
+8000a000 00000060 a5 01 80009f80 8000a060 ffffff00 8000a040 dc3e914c
+8000a060 00000060 a5 01 8000a000 8000a0c0 ffffff00 8000a0a0 dc3e91ec
+8000a0c0 00000400 a5 01 8000a060 8000a4c0 ffffff00 8000a100 dc3e9293
+8000a4c0 029fcb80 cd 00 8000a0c0 80007040 10000000 8000a500 dc3da956
+MCB:41(40/1) MEM:02a00000(00003480/029fcb80)
+======== HuMem heap dump 80007040 end =====
+======== HuMem heap dump 82a1b040 ========
+MCB-----+Size----+MG+FL+Prev----+Next----+UNum----+Body----+Call----
+82a1b040 01600000 cd 00 82a1b040 82a1b040 ffffff00 82a1b080 dc37a79b
+MCB:1(0/1) MEM:01600000(00000000/01600000)
+======== HuMem heap dump 82a1b040 end =====
+objman>Used Memory Size:0000abc0
+objman>Used Memory Cnt:7
+objman>Init esp
+objman>Call objectsetup
+SOUND ##########################
+0
+GroupSet 9
+GroupSet 9 loaded
+Change AUX 0,1
+##########################
+DLLStart 89 0
+Search:w01Dll.dll
+objdll>Link DLL:w01Dll.dll
+objdll> w01Dll.dll prolog start
+objman>InitObjMan start
+objman>InitObjMan end
+objdll> w01Dll.dll prolog end
+objman>ObjectSetup end
+DLL DBG OUT
+COVERAGE> TUTORIAL first reached at frame 0
+Rest Memory 155a780
+Rest Memory 15137e0
+data num 5e0000
+Rest Memory 14fd240
+ARAM data num 120006
+data num 190000
+Rest Memory 1501e80
+data num 6c0000
+Rest Memory 14e21c0
+data num 890000
+Rest Memory 14f9c00
+data num 7001d
+Rest Memory 13cfee0
+data num 750000
+Rest Memory 1270ae0
+data num 50000
+Rest Memory 11b6c60
+data num 90000
+Rest Memory 11c2420
+OSDisableInterrupts is a stub
+OSRestoreInterrupts is a stub
+OSDisableInterrupts is a stub
+OSRestoreInterrupts is a stub
+[AUDIO] msmMusPlay id=12 channel=0 seq=1 sgid=102 sid=25 songGrp=95 vol=112
+OSResetSystem is a stub
+[WARNING | aurora::gfx] Buffer mapping Aborted: Buffer was destroyed before mapping was resolved.

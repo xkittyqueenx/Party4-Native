@@ -1,0 +1,12 @@
+coroutine_guard=1 watermark=1 fallback_allocations=0
+STACK live process=omWatchOverlayProc requested=16384 pc_size=32768 peak=10816 headroom=21952 usage=33.0%
+STACK live process=ILT+112720(omMain) requested=32768 pc_size=65536 peak=7528 headroom=58008 usage=11.5%
+STACK live process=ILT+3955(fn_1_414) requested=32768 pc_size=65536 peak=8504 headroom=57032 usage=13.0%
+STACK live process=ILT+10745(fn_1_AF0) requested=16384 pc_size=32768 peak=280 headroom=32488 usage=0.9%
+STACK live process=HuWinProc requested=16384 pc_size=32768 peak=1240 headroom=31528 usage=3.8%
+STACK retired process=fn_1_F40+0xb9d requested=24576 pc_size=49152 peak=10280 headroom=38872 usage=20.9% samples=1 saturated=0
+STACK retired process=HuWinProc requested=16384 pc_size=32768 peak=1240 headroom=31528 usage=3.8% samples=2 saturated=0
+STACK retired process=ILT+112720(omMain) requested=32768 pc_size=65536 peak=7528 headroom=58008 usage=11.5% samples=1 saturated=0
+STACK retired process=ILT+9630(fn_1_5850) requested=16384 pc_size=32768 peak=624 headroom=32144 usage=1.9% samples=1 saturated=0
+STACK retired process=ILT+6520(fn_1_72DC) requested=16384 pc_size=32768 peak=536 headroom=32232 usage=1.6% samples=1 saturated=0
+STACK retired process=ILT+235(fn_1_AAB8) requested=16384 pc_size=32768 peak=736 headroom=32032 usage=2.2% samples=1 saturated=0

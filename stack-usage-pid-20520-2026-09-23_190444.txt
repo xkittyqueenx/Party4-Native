@@ -1,0 +1,5 @@
+coroutine_guard=1 watermark=1 fallback_allocations=0
+STACK live process=omWatchOverlayProc requested=16384 pc_size=32768 peak=10816 headroom=21952 usage=33.0%
+STACK live process=ILT+112720(omMain) requested=32768 pc_size=65536 peak=7528 headroom=58008 usage=11.5%
+STACK live process=ILT+10120(BootExec) requested=24576 pc_size=49152 peak=10280 headroom=38872 usage=20.9%
+STACK live process=HuWinProc requested=16384 pc_size=32768 peak=376 headroom=32392 usage=1.1%

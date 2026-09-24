@@ -1,0 +1,35 @@
+coroutine_guard=1 watermark=1 fallback_allocations=0
+STACK live process=omWatchOverlayProc requested=16384 pc_size=32768 peak=10816 headroom=21952 usage=33.0%
+STACK live process=ILT+112805(omMain) requested=32768 pc_size=65536 peak=8248 headroom=57288 usage=12.6%
+STACK live process=MainFunc requested=49152 pc_size=98304 peak=10488 headroom=87816 usage=10.7%
+STACK live process=HuWinProc requested=16384 pc_size=32768 peak=1320 headroom=31448 usage=4.0%
+STACK live process=UpdateChar requested=32768 pc_size=65536 peak=1496 headroom=64040 usage=2.3%
+STACK live process=UpdateChar requested=32768 pc_size=65536 peak=1496 headroom=64040 usage=2.3%
+STACK live process=UpdateChar requested=32768 pc_size=65536 peak=1496 headroom=64040 usage=2.3%
+STACK live process=UpdateChar requested=32768 pc_size=65536 peak=1496 headroom=64040 usage=2.3%
+STACK live process=BoardStatusProc requested=32768 pc_size=65536 peak=296 headroom=65240 usage=0.5%
+STACK live process=ItemUseProc requested=32768 pc_size=65536 peak=7608 headroom=57928 usage=11.6%
+STACK live process=ParManFunc requested=16384 pc_size=32768 peak=504 headroom=32264 usage=1.5%
+STACK live process=ParManFunc requested=16384 pc_size=32768 peak=504 headroom=32264 usage=1.5%
+STACK live process=ParManFunc requested=16384 pc_size=32768 peak=504 headroom=32264 usage=1.5%
+STACK live process=ParManFunc requested=16384 pc_size=32768 peak=504 headroom=32264 usage=1.5%
+STACK live process=ItemProcess requested=16384 pc_size=32768 peak=2304 headroom=30464 usage=7.0%
+STACK live process=ExecItemBowserPhone requested=16384 pc_size=32768 peak=2848 headroom=29920 usage=8.7%
+STACK retired process=0x7ffb7391378d requested=24576 pc_size=49152 peak=10280 headroom=38872 usage=20.9% samples=1 saturated=0
+STACK retired process=HuWinProc requested=16384 pc_size=32768 peak=1320 headroom=31448 usage=4.0% samples=4 saturated=0
+STACK retired process=ILT+112805(omMain) requested=32768 pc_size=65536 peak=7528 headroom=58008 usage=11.5% samples=3 saturated=0
+STACK retired process=0x7ffb6b2f35a3 requested=16384 pc_size=32768 peak=624 headroom=32144 usage=1.9% samples=1 saturated=0
+STACK retired process=0x7ffb6b2f297d requested=16384 pc_size=32768 peak=536 headroom=32232 usage=1.6% samples=1 saturated=0
+STACK retired process=0x7ffb6b2f10f0 requested=16384 pc_size=32768 peak=736 headroom=32032 usage=2.2% samples=1 saturated=0
+STACK retired process=0x7ffb6b2f39fe requested=16384 pc_size=32768 peak=280 headroom=32488 usage=0.9% samples=1 saturated=0
+STACK retired process=0x7ffb6b2f1f78 requested=32768 pc_size=65536 peak=8504 headroom=57032 usage=13.0% samples=1 saturated=0
+STACK retired process=UpdateNpcDust requested=16384 pc_size=32768 peak=1240 headroom=31528 usage=3.8% samples=2 saturated=0
+STACK retired process=0x7ffb682d4011 requested=16384 pc_size=32768 peak=1480 headroom=31288 usage=4.5% samples=1 saturated=0
+STACK retired process=0x7ffb682d440d requested=16384 pc_size=32768 peak=7944 headroom=24824 usage=24.2% samples=3 saturated=0
+STACK retired process=0x7ffb682d1df7 requested=16384 pc_size=32768 peak=1288 headroom=31480 usage=3.9% samples=1 saturated=0
+STACK retired process=0x7ffb682d11f4 requested=16384 pc_size=32768 peak=1448 headroom=31320 usage=4.4% samples=4 saturated=0
+STACK retired process=0x7ffb682d3c33 requested=16384 pc_size=32768 peak=8760 headroom=24008 usage=26.7% samples=1 saturated=0
+STACK retired process=ExecBoardWindow requested=32768 pc_size=65536 peak=1352 headroom=64184 usage=2.1% samples=8 saturated=0
+STACK retired process=ExecStart requested=28672 pc_size=57344 peak=7928 headroom=49416 usage=13.8% samples=1 saturated=0
+STACK retired process=RollMain requested=49152 pc_size=98304 peak=1640 headroom=96664 usage=1.7% samples=2 saturated=0
+STACK retired process=ItemUseProc requested=32768 pc_size=65536 peak=7752 headroom=57784 usage=11.8% samples=1 saturated=0
